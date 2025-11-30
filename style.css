@@ -23,12 +23,12 @@ header {
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-    border: 12px solid #DDDDDD;
+    border: 14px solid #DDDDDD;
 }
 
 h1 {
