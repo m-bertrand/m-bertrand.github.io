@@ -1,6 +1,6 @@
 body {
     font-family: "Times New Roman", Times, serif;
-    background-color: #FAFAFA;
+    background-color: #FFF3E0;
     color: #000000;
     line-height: 1.6;
     margin: 0;
@@ -61,7 +61,7 @@ nav {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: #0000EE;
+    color: #E65100;
 }
 
 nav a:hover {
@@ -76,11 +76,11 @@ nav a.active {
 }
 
 a {
-    color: #0000EE;
+    color: #E65100;
 }
 
 a:visited {
-    color: #551A8B;
+    color: #BF360C;
 }
 
 ul {
