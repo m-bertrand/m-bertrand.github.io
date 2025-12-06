@@ -13,6 +13,19 @@ body {
     background-color: #FFFFFF;
     padding: 40px;
     border: 1px solid #DDDDDD;
+    position: relative;
+    /* For absolute positioning of banner if needed, or just flow */
+}
+
+.language-banner {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+.language-banner a {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 header {
