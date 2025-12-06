@@ -149,8 +149,56 @@ li {
 }
 
 .date {
-    font-weight: bold;
     margin-right: 10px;
+}
+
+/* CV Styles */
+.cv-entry {
+    margin-bottom: 25px;
+    list-style-type: none;
+    /* Remove default bullets for CV entries if desired, or keep them */
+}
+
+.cv-header {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.cv-date {
+    font-weight: bold;
+    min-width: 100px;
+    /* Fixed width for alignment */
+    color: #E65100;
+    flex-shrink: 0;
+}
+
+.cv-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #000000;
+}
+
+.cv-details {
+    margin-left: 100px;
+    /* Indent details to align with title, skipping date width */
+    font-size: 0.95em;
+    color: #333333;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 600px) {
+    .cv-header {
+        flex-direction: column;
+    }
+
+    .cv-details {
+        margin-left: 0;
+    }
+
+    .cv-date {
+        margin-bottom: 2px;
+    }
 }
 
 .contact-info {
